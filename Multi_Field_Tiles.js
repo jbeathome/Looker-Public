@@ -217,7 +217,7 @@ looker.plugins.visualizations.add({
     var Title = { value: config.Title_text };
 
     var L2_HTML = LookerCharts.Utils.textForCell(secondCell);
-    L2_HTML +=  "&nbsp;XXX";
+    L2_HTML +=  "&nbsp;XYXX";
     L2_HTML +=  LookerCharts.Utils.textForCell({ value: config.L2_text });
 
     var L3_HTML = LookerCharts.Utils.textForCell(thirdCell);
